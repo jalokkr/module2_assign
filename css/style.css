@@ -34,7 +34,7 @@
 	    text-align: center;
 	    font-size: 125%;
 	    font-weight: bold;
-            margin: 0px;
+      margin: 0px;
 	    background-color: pink;
 
 	}
@@ -54,7 +54,7 @@
 	}
 
 	.p3 {
-    	    margin: 0px;
+    	margin: 0px;
 	    color: black;
 	    float: right;
 	    width: 100px;
@@ -99,6 +99,14 @@
 	    }
 
 	    .colmn-md-12 {
+	        float: left;
+	        width: 100%;
+	    }
+	}
+
+	
+	@media (max-width: 767px) {
+	    .colmn-sm-12 {
 	        float: left;
 	        width: 100%;
 	    }
